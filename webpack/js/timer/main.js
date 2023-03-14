@@ -16,8 +16,8 @@ export let timerOn = false;
 // let timer = null;
 
 
-var sound = new Howl({
-  src: ['top/webpack/music/sounds.mp3']
+const sound = new Howl({
+  src: ['sounds.mp3']
 });
 
 // // Shoot the laser!
@@ -27,6 +27,7 @@ sound.play();
 export let timeMinut = 0;
 
 buttonRun.addEventListener('click', () => {
+ 
   if (timerOn == false) {
     timeMinut = parseInt(timerInput.value) * 60;
     timerOn = true;

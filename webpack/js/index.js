@@ -4,6 +4,6 @@ import bundlerPic from '../bundler.png';
 
 // import '../css/product.css';
 import '../css/style.scss';
-import '../music/sounds.mp3';
+// import '../music/sounds.mp3';
 
 // import xor from 'lodash/xor';
